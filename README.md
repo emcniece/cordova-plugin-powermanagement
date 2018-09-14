@@ -65,6 +65,13 @@ By default, the plugin will automatically release a wakelock when your app is pa
 
 Note that in all the above examples, all callbacks are optional.
 
+Development
+-----
+
+Note that while developing apps using this plugin, the native device will stay awake while debug tools are attached. For Android this includes Android Studio and the Remote Debugging tools via Chrome. For iOS this includes XCode runtime console and Safari Devtools.
+
+When testing apps on native devices, detatch any developer tools to ensure the plugin works as expected.
+
 License
 =======
 Copyright 2013 Wolfgang Koller
